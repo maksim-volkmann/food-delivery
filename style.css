@@ -97,3 +97,12 @@ body{
 .delivery-nav-button:hover{
   background-color: rgb(7, 114, 185);
 }
+
+@media (max-width: 1300px) {
+  .food-items {
+    flex-wrap: wrap;
+  }
+  .food-items-box{
+    margin-bottom: 40px;
+  }
+}
