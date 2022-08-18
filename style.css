@@ -1,0 +1,49 @@
+body {
+    font-family: "Poppins";
+}
+
+header {
+    width: 90%;
+    height: 10%;
+    margin: auto;
+  }
+
+  nav {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+.logo-container {
+    display: flex;
+    flex: 1;
+}
+
+.logo {
+height: 40px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-link {
+color: gray;
+text-decoration: none;
+padding: 10px;
+}
+
+.search-bar {
+    display: flex;
+}
+
+.nav2 {
+    display: flex;
+}
+
+.location {
+    display: flex;
+    flex: 1;
+}
