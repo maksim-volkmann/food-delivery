@@ -7,10 +7,9 @@ body{
 }
 
 header {
-	/* width: 90%; */
-	/* height: 10%; */
 	margin: auto;
 	padding: 0 15px;
+	padding-bottom: 20px;
 }
 
 .main-nav {
