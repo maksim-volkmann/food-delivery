@@ -7,15 +7,16 @@ body{
 }
 
 header {
-	width: 90%;
-	height: 10%;
+	/* width: 90%; */
+	/* height: 10%; */
 	margin: auto;
+	padding: 0 15px;
 }
 
 .main-nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .header-container {
@@ -27,6 +28,12 @@ header {
 
 .logo {
 	height: 50px;
+	transition: 1s;
+	cursor: pointer;
+}
+
+.logo:hover {
+	transform: scale(1.2);
 }
 
 .nav-links {
@@ -36,9 +43,26 @@ header {
 }
 
 .nav-link {
-color: gray;
-text-decoration: none;
-padding: 10px;
+	color: gray;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.nav-link:hover{
+	text-decoration: underline;
+}
+
+#languages{
+	font-family: 'Poppins', sans-serif;
+	color: gray;
+	border: 1px solid #fff;
+	font-size: 16px;
+	cursor: pointer;
+	padding: 0 5px;
+}
+
+#languages:hover{
+	border: 1px solid gray;
 }
 
 .search-bar {
@@ -54,6 +78,30 @@ padding: 10px;
 
 .nav2 {
 	display: flex;
+	justify-content: flex-end;
+}
+
+
+.nav2 .nav-button{
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+	border: none;
+	border-radius: 50px;
+	margin-left: 20px;
+	padding: 10px 20px;
+	font-weight: 500;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.nav2 .nav-button:hover{
+	background-color:rgb(7, 114, 185);
+	color: #fff;
+}
+
+.nav2 .nav-button.active{
+	background-color:rgb(7, 114, 185);
+	color: #fff;
 }
 
 .location {
@@ -141,16 +189,16 @@ padding: 10px;
 .delivery-nav-button{
   width: 40px;
   height: 40px;
-  background-color: rgb(61, 177, 231);
+  background-color: rgb(7, 114, 185);
   border-radius: 50%;
   border: none;
   margin-right: 10px;
-  transition: transform 0.7s;
+	transition: 0.5s;
   cursor: pointer;
 }
 
 .delivery-nav-button:hover{
-  background-color: rgb(7, 114, 185);
+  background-color: rgba(25, 132, 204, 0.527);
 }
 
 @media (max-width: 1300px) {
@@ -160,4 +208,7 @@ padding: 10px;
   .food-items-box{
     margin-bottom: 40px;
   }
+	.nav2{
+		justify-content: center;
+	}
 }
