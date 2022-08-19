@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
 }
-.categories-special-offers {
+.section-wrapper {
     padding-left: 20px;
 }
 .category-card {
