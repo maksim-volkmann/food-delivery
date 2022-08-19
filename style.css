@@ -2,12 +2,11 @@
 
 body{
   font-family: 'Poppins', sans-serif;
-  max-width: 1700px;
   margin: 0 auto;
   width: 100%;
   height: 100%;
   min-width: 320px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Roboto, "Open Sans", "Helvetica Neue", sans-serif;
+  /* font-family: system-ui, -apple-system, BlinkMacSystemFont, Roboto, "Open Sans", "Helvetica Neue", sans-serif; */
   margin: 0;
   padding: 0;
 }
@@ -29,6 +28,7 @@ header {
 	justify-content: space-between;
 	align-content: center;
 	align-items: center;
+	padding: 0 20px;
 }
 
 .logo {
@@ -84,6 +84,7 @@ header {
 .nav2 {
 	display: flex;
 	justify-content: flex-end;
+	padding: 0 30px;
 }
 
 
@@ -121,6 +122,8 @@ header {
     gap: 13px;
     justify-content: space-around;
     position: relative;
+		max-width: 1800px;
+    margin: auto;
 }
 
 .sl-buttons {
@@ -258,6 +261,11 @@ header {
   padding: 10px;
   text-align: center;
   font-size: 13px;
+}
+
+.delivery{
+	max-width: 1700px;
+	margin: auto;
 }
 
 .delivery-nav{
