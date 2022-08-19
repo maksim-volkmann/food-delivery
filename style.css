@@ -184,3 +184,80 @@ a:link {
     width: 99px;
     margin-left: 40px;
 }
+
+@media screen and (max-width: 1550px) {
+    .inner-footer{
+        width: 1100px;
+    }
+    .footer-info {
+        width: 900px;
+    }
+    .footer-appLinks {
+        flex-direction: column;
+    }
+    .footer-bottomBar {
+        width: 1100px;
+    }
+
+}
+
+@media screen and (max-width: 1350px) {
+    .inner-footer{
+        width: 900px;
+    }
+    .footer-info {
+        width: 700px;
+    }
+    .footer-appLinks {
+        flex-direction: column;
+    }
+    .footer-bottomBar {
+        width: 900px;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .inner-footer{
+        width: 700px;
+    }
+    .footer-info {
+        width: 500px;
+        justify-content: space-between;
+    }
+    .footer-app {
+        width: 200px;
+    }
+
+    .footer-bottomBar {
+        width: 700px;
+        height: 48px;
+        flex-wrap: wrap;
+    }
+}
+
+    @media screen and (max-width: 768px) {
+        .inner-footer{
+            width: 500px;
+        }
+        .footer-info {
+            width: 300px;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+        .footer-appLinks {
+            flex-direction: column;
+        }
+        .footer-bottomBar {
+            width: 500px;
+            height: 48px;
+            flex-wrap: wrap;
+        }
+        .footer-info-content {
+            display: none;
+        }
+        .footer-attribution {
+            width: 80px;
+            font-size: 8px;
+        }
+}
