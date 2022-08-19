@@ -301,12 +301,16 @@ header {
 }
 
 .categories-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 .section-wrapper {
     padding-left: 20px;
+}
+
+.bottom-section-wrapper{
+	padding-bottom: 50px;
 }
 .category-card {
     display: flex;
