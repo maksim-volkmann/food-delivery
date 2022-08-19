@@ -556,7 +556,8 @@ a:link {
     margin-bottom: 40px;
   }
   .nav2 {
-    justify-content: center;
+    justify-content: space-around;
+    padding-top: 20px;
   }
 }
 
