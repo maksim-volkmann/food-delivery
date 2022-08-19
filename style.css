@@ -7,30 +7,30 @@ body{
 }
 
 header {
-    width: 90%;
-    height: 10%;
-    margin: auto;
-  }
+	width: 90%;
+	height: 10%;
+	margin: auto;
+}
 
-  nav {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-  }
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .logo-container {
-    display: flex;
-    flex: 1;
+	display: flex;
+	flex: 1;
 }
 
 .logo {
-height: 40px;
+	height: 40px;
 }
 
 .nav-links {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
 }
 
 .nav-link {
